@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+ }
+ a{
+    text-decoration: none;
+ }
+ html{
+    scroll-behavior: smooth;
+ }
+ .hide{
+    display: none;
+ }
+ .scroll{
+    position: fixed;
+    bottom: 35px;
+    right: 20px;
+    padding: 6px;
+    border-radius: 40px;
+    background-color: rgb(243, 52, 18);
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+ }
+.header{
+    height: 110px;
+    width: 100%;
+    text-align: center;
+}
+.name{
+    padding-top: 25px;
+    text-align: center;
+    margin: auto;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.underline{
+    width: 70px;
+    height: .5px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgb(167, 78, 78);
+}
+.bigtext{
+    margin-top: -10px;
+    text-align: center;
+    font-size: 2.7rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ppp{
+    width: 44%;
+    margin: auto;
+}
+.about-me{
+    line-height: 25px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.contract-with-niamat{
+    width: 230PX;
+    margin-top: 35px;
+    padding-top: 12px;
+    height: 30PX;
+    margin: auto;
+    font-size: .8REM;
+    text-align: center;
+    background-color: rgb(240, 4, 4);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+.contract-with-niamat:hover{
+    background-color: #fff;
+    color: red;
+    border: 1px solid red;
+}
+.contract-with-niamat i{
+    background-color: white;
+    color: red;
+    border-radius: 50%;
+    margin-left: 10px;
+    border: .5px solid white;
+    padding: .9px;
+    font-size: .9rem;
+ }
+
+.whoami{
+    width: 100%;
+    height: 550px;
+    background-color: #d1d1d1;
+    margin-top: 35px ;
+}
+.about-me-text{
+    width: 45%;
+    height: 400px;
+    float: left;
+    background-color: #fff;
+    margin: 20px;
+    margin-left: 200px;
+    border-radius: 3px;
+    margin-top: 55px;
+}
+.about-me-text .p1{
+    width: 98%;
+    text-align:right;
+    margin: 40px 0px 0px 0px;
+    font-size: 2rem;
+
+}
+.about-me-text .text{
+    width: 70%;
+    height: auto;
+    float: right;
+    text-align: justify;
+    line-height: 25px;
+    margin: 50px 10px 40px 0px;
+    font-size: 1.1rem;
+ 
+}
+.about-me-text .workbtn{
+    height: 30px;
+    width: 240px;
+    background-color: rgb(240, 4, 4);
+    text-align: center;
+    padding-top: 13px;
+    color: white;
+    font-size: .8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    margin-right: 10px;
+}
+.workbtn:hover{
+    background-color: #fff;
+    color: red;
+    border: 1px solid red;
+}
+.photo{
+    height: 300px;
+    width: 300px;
+    background-color: #fff;
+    float: left;
+    margin: 20px;
+    margin-top: 55px;
+    border-radius: 3px;
+    margin-left: 15px;
+}
+.photo img{
+    height: 270px;
+    width: 270px;
+    margin: 15px;
+}
+.down{
+    height: 1500px;
+    width: 100%;
+    background-color: #00204a;
+}
+.down .toptext{
+    height: 90px;
+    width: 440px;
+    text-align: center;
+    margin: auto;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+}
+.toptext p{
+    font-size: .9rem;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.toptext .s{
+    float: left;
+    font-size: 1.2rem;
+    margin-right: 6px;
+    margin-left: 60px;
+}
+.toptext .s2{
+    float: left;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.down .topic-div{
+    height: 900px;
+    width: 83%;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+}
+.topic-div .topic{
+    height: 360px;
+    width: 290px;
+    float: left;
+    background-color: #f0efef;
+    margin: 50px 30px 20px 30px ;
+    text-align: left;
+}
+.topic:hover{
+    background-color: #fff;
+    border-inline: 1px solid #f0efef;
+}
+.topic i{
+    background-color: rgb(236, 29, 29);
+    color: white;
+    padding: 14px;
+    border-radius: 10px;
+    margin: 20px 0px 10px 25px;
+}
+.topic p{
+    margin: 0px 25px 0px 25px ;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+.topic .headingg{
+    margin: 10px 0px 35px 25px;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.topic .getstart{
+    height: 30px;
+    width: 110px;
+    margin: 25px 0px 0px 25px;
+    border: 1px solid red;
+    color: red;
+    background-color: white;
+}
+.getstart:hover{
+    background-color: red;
+    color: white;
+}
+.topic-div .t1{
+    margin-left: 65px;
+}
+.topic-div .t4{
+    margin-left: 65px;
+}
+.down .flooter{
+    height: 350px;
+    width: 83%;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.flooter .left{
+    height: 100%;
+    float: left;
+    width: 40%;
+
+}
+.left img{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    margin: 10px 0px 0px 30px;
+}
+.left p{
+    margin: 10px 0px 40px 30px;
+    text-align: justify;
+     font-size: 1.15rem;
+ }
+.left i{
+    padding: 6px;
+    margin: 2px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.left .icon1{
+    margin-left: 28px;
+    background-color: blue;
+    color: white;
+}
+.left .icon2{
+    background-color: rgb(64, 64, 224);
+    color: white;
+}
+.left .icon3{
+    background-color: turquoise;
+    color: white;
+   }
+.left .icon4{
+    background:black;
+    color: white;
+}
+.left .icon5{
+    background-color: red;
+    color: white;
+}
+.left h3{
+    margin-left: 27px;
+}
+
+.flooter .middle{
+    height: 100%;
+    width: 22%;
+    float: left;
+    margin-left: 80px;
+}
+.middle h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.middle a{
+    text-decoration: none;
+    font-size: 1.1rem;
+     line-height: 32px;
+    color: black;
+    font-family:sans-serif;
+}
+.right h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.right a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    line-height: 35px;
+    color: black;
+    font-family:sans-serif;
+}
+
+
+.flooter .right{
+    height: 100%;
+    width: 25%;
+    float: left;
+    margin-left: 50px;
+}
+.flooter a:hover{
+    color: red;
+ }

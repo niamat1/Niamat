@@ -1,0 +1,169 @@
+@media  screen and (max-width: 420px) {
+    body{
+        text-align: center;
+    }
+    .scroll{
+        right: 30px;
+        opacity: .7;
+        font-size: 1.5rem;
+        padding: 3px;
+    }
+    .header{
+        width: 50%;
+        height: auto;
+        margin: auto;
+     }
+    .name{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .underline{
+        margin-bottom: 50px;
+        margin-top: 10px;
+        width: 50px;
+    }
+    .bigtext{
+        font-size: 1.3rem;
+        margin-right: 0px;
+        margin-bottom: 40px;
+    
+    }
+    .about-me{
+        margin: 10px;
+        text-align: center;
+        margin-bottom: 30px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .ppp{
+        width: 80%;
+    }
+    .contract-with-niamat{
+        height: 18px;
+        padding: 10px;
+        width: 50%;
+        margin-top: 40px;
+        margin-bottom: 70px;
+        
+    }
+    .whoami{
+        padding-top: 25px;
+        height: 500px;
+    }
+    .whoami .about-me-text{
+        margin: 0px;
+        width: 95%;
+        margin: auto;
+        float: none;
+        height: 440px;
+        text-align: center;
+        border-radius: 10px;
+        padding-top: 8px;
+         
+    }
+    .about-me-text .p1{
+        margin: 0px;
+        text-align: left;
+        margin-top: 50px;
+        margin-left: 20px;
+        height: 0px;
+    }
+    .about-me-text .workbtn{
+        float:left;
+        margin-left: 59px;
+        height: 18px;
+        padding: 10px;
+        width: 60%;
+    }
+    .about-me-text .text{
+        width: 100%;
+    }
+    .text p{
+        margin: 20px;
+        margin-left: 25px;
+    }
+    .down .toptext{
+         text-align: left;
+         width: 100%;
+         height: 150px;
+      }
+     .toptext .s{
+         margin-left: 10px;
+         text-align: left ;
+      }
+     .toptext p{
+         margin-left: 10px;
+         margin-top: 10px;
+     }
+    .down{
+        height: 3110px;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .down .topic-div{
+        height: auto;
+        width: 100%;
+        height: 2100px;
+        float: none;
+        margin: 0px ;
+        padding-top: 10px;
+    }
+    .topic-div .topic{
+        margin: auto;
+        margin-top: 15px;
+        float: none;
+        width: 83%;
+        height: 320px;
+        border: 1px solid #f0efef;
+    }
+    .topic-div .t5{
+        height: 340px;
+    }
+
+    .down .flooter{
+        height: 900px;
+        width: 100%;
+        background-color: #fff;
+        margin: auto;
+        margin-top: 30px;
+        border-radius: 5px;
+        margin-bottom: 30px;
+        margin-left: 0px;
+        }
+        .flooter .left{
+            height: 350px;
+            float: none;
+            width: 100%;
+            text-align: left;
+            margin: 0px;
+        }
+        .left p{
+            margin-right: 10px;
+        }
+        
+        .flooter .middle{
+            height: 220px;
+            width: 100%;
+            float: none;
+            margin-left: 80px;
+            text-align: left;
+            margin: 0px;
+            padding-left: 25px;
+         }
+        
+        .flooter .right{
+            height: 250px;
+            width: 100%;
+            float: none;
+            text-align: left;
+            margin: 0px;
+            padding-left: 25px;
+        }
+
+
+
+    .whoami .photo{
+        display: none;
+     }
+   
+}
